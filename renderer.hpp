@@ -1,6 +1,6 @@
-// The core takes a 3D mesh and a perspective
+// takes a 3D mesh and a perspective
 // and algebraically transform it into a 2D mesh
-// by copying the mesh
+// copying the mesh
 
     // Grammar:
 // Mesh         iterable, copyable container of vertices, of edges
@@ -10,7 +10,7 @@
 // Vertex       vector of dimensions
 // Dimension    number
 // Matrix       vector of vectors
-// Perspective  vertex
+// Perspective  Position vertex, Orientation Vertex, Rotation vector
 // Precision    number type, e.g. int, float
 
 #ifndef RENDER_RENDERER_HPP
